@@ -10,6 +10,8 @@ import SignIn from '../SignIn';
 import UserTodoList from '../userWatchList';
 import SignOut from '../SignOut';
 import Home from './../home/index';
+import NavBar from './../../components/Navbar/index';
+
 import './../../index.css'
 
 // import Chat from '../chatComponent';
@@ -21,7 +23,6 @@ import { connect } from 'react-redux';
 
 
 
-import NavBar from './../../components/Navbar/index';
 
 
 class App extends Component {
