@@ -21,7 +21,7 @@ import { connect } from 'react-redux';
 
 
 
-import Navbar from './../../components/Navbar';
+// import Navbar from './../../components/Navbar';
 
 
 class App extends Component {
@@ -36,6 +36,7 @@ class App extends Component {
       <Grid textAlign='center'   verticalAlign='middle'>
         <Grid.Column style={{ maxWidth: 700 }}>
           
+           <NavBar authenticated={this.props.authenticated}/>
 
            <Route exact path='/winners' component={Winners}/>
            <Route exact path='/losers' component={Losers}/>
