@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Grid } from 'semantic-ui-react';
-import NavBar from './../../components/Navbar';
+// import NavBar from './../../components/Navbar';
 import Winners from '../winners';
 import Losers from './../losers'
 import AllTodosList from "../popular"
@@ -36,7 +36,6 @@ class App extends Component {
       <Grid textAlign='center'   verticalAlign='middle'>
         <Grid.Column style={{ maxWidth: 700 }}>
           
-           <NavBar authenticated={this.props.authenticated}/>
 
            <Route exact path='/winners' component={Winners}/>
            <Route exact path='/losers' component={Losers}/>
