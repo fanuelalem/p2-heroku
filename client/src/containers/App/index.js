@@ -10,7 +10,7 @@ import SignIn from '../SignIn';
 import UserTodoList from '../userWatchList';
 import SignOut from '../SignOut';
 import Home from './../home/index';
-import NavBar from '../../components/Navbar';
+import NavBar from '../Navbar';
 
 import './../../index.css'
 
