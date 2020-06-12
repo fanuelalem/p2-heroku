@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Grid } from 'semantic-ui-react';
-// import NavBar from './../../components/Navbar';
+import NavBar from './../../components/Navbar';
 import Winners from '../winners';
 import Losers from './../losers'
 import AllTodosList from "../popular"
@@ -21,7 +21,7 @@ import { connect } from 'react-redux';
 
 
 
-// import Navbar from './../../components/Navbar';
+import Navbar from './../../components/Navbar';
 
 
 class App extends Component {
