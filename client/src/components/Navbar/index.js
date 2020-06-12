@@ -13,7 +13,7 @@ export default (props) => (
 
 
 {props.authenticated ? null : 
-<Menu.Item><Button primary as ={Link} to="/signup" content="Sign Up"/> </Menu.Item> }
+<Menu.Item><Button primary as ={Link} to="/" content="Sign Up"/> </Menu.Item> }
 
 
 
